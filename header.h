@@ -15,3 +15,10 @@ extern vector <Aduan> daftarAduan;
 extern vector <string> dosen;
 extern int counterID;
 const string NAMA_FILE = "aduan.txt";
+
+
+
+// string.cpp
+int hitungPanjang();
+bool semuaDigit();
+bool semuaHurufSpasi();

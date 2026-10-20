@@ -8,12 +8,12 @@ int hitungPanjang (string s,int i = 0){
 }
 
 
-bool isDigit (int c){
+static bool isDigit (int c){
     return c >= '0' && c <= '9';
 }
 
 
-bool isHuruf (char c){
+static  bool isHuruf (char c){
     return (c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z');
 }
 
